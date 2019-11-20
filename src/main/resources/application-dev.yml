@@ -12,3 +12,5 @@ server:
   servlet:
       context-path: /discovery-server
 
+
+  #http://localhost:1111/discovery-server/
