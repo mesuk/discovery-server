@@ -1,0 +1,16 @@
+# Configure this Discovery Server
+eureka:
+  instance:
+    hostname: discovery-server
+  client:  # Not a client, don't register with yourself
+    registerWithEureka: false
+    fetchRegistry: false
+
+# HTTP Server
+server:
+  port: 8080
+  servlet:
+      context-path: /discovery-server
+
+
+  #http://localhost:1111/discovery-server/
