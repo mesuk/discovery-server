@@ -1,7 +1,7 @@
 # Configure this Discovery Server
 eureka:
   instance:
-    hostname: discovery-server
+    hostname: discoveryServer
   client:  # Not a client, don't register with yourself
     registerWithEureka: false
     fetchRegistry: false
@@ -13,4 +13,4 @@ server:
       context-path: /discovery-server
 
 
-  #http://localhost:1111/discovery-server/
+  #http://localhost:8080/discovery-server/
